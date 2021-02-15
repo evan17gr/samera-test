@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/samera-test/static/js/main.de62bc3b.chunk.js",
+    "main.js.map": "/samera-test/static/js/main.de62bc3b.chunk.js.map",
+    "runtime-main.js": "/samera-test/static/js/runtime-main.f990eaa8.js",
+    "runtime-main.js.map": "/samera-test/static/js/runtime-main.f990eaa8.js.map",
+    "static/js/2.db34aea9.chunk.js": "/samera-test/static/js/2.db34aea9.chunk.js",
+    "static/js/2.db34aea9.chunk.js.map": "/samera-test/static/js/2.db34aea9.chunk.js.map",
+    "index.html": "/samera-test/index.html",
+    "static/js/2.db34aea9.chunk.js.LICENSE.txt": "/samera-test/static/js/2.db34aea9.chunk.js.LICENSE.txt",
+    "static/media/Logo Black Underline 1000p (1).9fb41c2c.jpg": "/samera-test/static/media/Logo Black Underline 1000p (1).9fb41c2c.jpg",
+    "static/media/hero-image-page-001.ca2a4f4f.jpg": "/samera-test/static/media/hero-image-page-001.ca2a4f4f.jpg",
+    "static/media/made-for-your-pet-page-001.90aed2ac.jpg": "/samera-test/static/media/made-for-your-pet-page-001.90aed2ac.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f990eaa8.js",
+    "static/js/2.db34aea9.chunk.js",
+    "static/js/main.de62bc3b.chunk.js"
+  ]
+}
