@@ -40,6 +40,12 @@ const GlobalStyle = createGlobalStyle`
     color:white;
   }
 
+  @media screen and (max-width:420px){
+    h5{
+      font-size:12.5px;
+    }  
+  } 
+
   @media screen and (max-width:860px){
       p{
         font-size:13px;
@@ -53,6 +59,20 @@ const GlobalStyle = createGlobalStyle`
         font-size:15px;
       }
   }
+
+  @media screen and (max-width:420px){
+      p{
+        font-size:14px;
+      }
+
+      h2{
+        font-size:22px;
+      }
+
+      h3{
+        font-size:16px;
+      }     
+  } 
 
   a{
     color:#cfcaca;

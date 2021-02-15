@@ -91,6 +91,10 @@ export const FooterNavMenu = styled.section`
             input{
                 height:35px;
                 width:80%;
+                @media screen and (max-width:414px){
+                    border-radius:0;
+                    appearance: none;
+                }
             }
 
             button{

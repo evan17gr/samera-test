@@ -5,6 +5,9 @@ export const NavBar = styled.nav`
     display:flex;
     padding:${props => props.pad && props.pad};
     background:${props => props.color && props.color};
+    @media screen and (max-width:484px){
+        padding:2% 0;
+    } 
 `;
 
 export const MobileNavBar = styled.nav`
@@ -32,20 +35,28 @@ export const NavHeader = styled.header`
     position:sticky;
     z-index:999;
     top:0;
-    padding:0 10%;
+    padding:${props => props.padding && props.padding}; 
     @media screen and (max-width:484px){
-        padding:${props => props.padding && props.padding};  
-    }
+        padding:0 0;
+    } 
 `;
 
 export const LogoSection = styled.section`
     width:${props => props.height ? "20%" :"15%"};;
     display:flex;
 
+    @media screen and (max-width:420px){
+        img{
+            max-width:120px;
+            max-height:40px;
+        }        
+    } 
+
     img{
         max-width:100%;
         padding-left:5%;
         height:${props => props.height && "25%"};
+        
     }
 `;
 
@@ -59,6 +70,9 @@ export const IconSection = styled.section`
         font-size:2.3rem;
         padding:0 1.5%;
         cursor:pointer;
+        @media screen and (max-width:414px){
+        padding:0 3%;
+        } 
     }
     
 `;

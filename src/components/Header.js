@@ -30,8 +30,8 @@ const Header = () =>
     window.addEventListener( "scroll", changeTheBackground );
 
     return (
-        <NavHeader padding={ changeBackground ? "0% 0%" : "2% 0"}>
-            <NavBar  color={changeBackground ? "white" : ""} pad={changeBackground ? "2% 0" : "0% 0%"}>
+        <NavHeader padding={ changeBackground ? "0% 10%" : "2% 10%"}>
+            <NavBar  color={changeBackground ? "white" : ""} pad={changeBackground ? "2% 0%" : "0% 0%"}>
                 <LogoSection>
                     <img src={Logo}/>
                 </LogoSection>

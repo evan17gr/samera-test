@@ -53,6 +53,9 @@ export const MainSection = styled.section`
         max-width:100%;
         width:${props => props.padding ? "25%" : "40%"};
         margin-left:${props => props.padding ? "20%" : "5%"};
+        @media screen and (max-width:420px){
+            margin-left:10%;
+        } 
     }  
 `;
 
